@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "productName": "Apple iPhone 15 Pro Max",
+    "price": 33490000,
+    "imageUrl": "https://public.blenderkit.com/thumbnails/assets/b0c720aad04d413ea2b8712ea814ed2c/files/thumbnail_3e1ab06d-809d-47d5-b0e5-50d41d2ce51a.png.256x256_q85_crop-%2C.png",
+    "description": "Giờ đây với thiết kế titan nhẹ và bền một bước nhảy vọt về tốc độ truyền dữ liệu với USB-C cùng chuẩn USB 3.!"
+  },
+  {
+    "id": 2,
+    "productName": "Điện thoại Xiaomi Redmi 9A (2GB/32GB) - Hàng chính hãng",
+    "price": 1790000,
+    "imageUrl": "https://trangthienlong.com.vn/wp-content/uploads/2023/09/iphone-15-mau-hong-128gb-256gb-512gb-trang-thien-long-mobile.jpg",
+    "description": "Điện thoại Xiaomi Redmi 9A sở hữu một màn hìnhh rõ ràng với màu sắc tươi tắn, dễ chịu."
+  },
+  {
+    "id": 3,
+    "productName": "Apple iPhone 11",
+    "price": 10490000,
+    "imageUrl": "https://trangthienlong.com.vn/wp-content/uploads/2023/09/iphone-15-pro-max-mau-vang-titanium-256gb-512gb-1tb-trang-thien-long-mobile.jpg",
+    "description": "Quay video 4Ki ưu tronà bớt phải lo lắng nhờ khả năng chống nước ở độ sâu tối đa 2 mét trong vòng 30 phút."
+  },
+  {
+    "id": 4,
+    "productName": "Apple iPhone 15 Pro Max",
+    "price": 33490000,
+    "imageUrl": "https://trangthienlong.com.vn/wp-content/uploads/2023/09/iphone-15-pro-max-mau-xanh-duong-256gb-512gb-1tb-trang-thien-long-mobile.jpg",
+    "description": "Giờ đây với uyển với hệ thống camera chuyên nghiệp linh hoạt hơn. Và một bước nhảy vọt về tốc độ truyền dữ liệu với USB-C cùng chuẩn USB 3.!"
+  },
+  {
+    "id": 5,
+    "productName": "Điện thoại Xiaomi Redmi 9A (2GB/32GB)",
+    "price": 1790000,
+    "imageUrl": "https://trangthienlong.com.vn/wp-content/uploads/2023/09/iphone-15-pro-max-mau-trang-256gb-512gb-1tb-trang-thien-long-mobile.jpg",
+    "description": "Điện thoại Xiaomi Redmi  đủ để bạn nhìn thấy các thông tin, hình ảnh rõ ràng với màu sắc tươi tắn, dễ chịu."
+  }
+]

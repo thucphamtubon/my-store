@@ -1,0 +1,26 @@
+<div class="product-details">
+    <img src="{{ product.imageUrl }}" alt="{{product.productName}}"/>
+
+    <div class="product-details__content">
+        <div class="product-details__product-name">{{ product.productName }}</div>
+        <p>{{ product.description }}</p>
+        <div class="product-details__price">{{ product.price}} đ</div>
+
+        <form (ngSubmit)="addToCart(product)">
+            <div>
+                <app-quantity-select
+                        [selectedQuantity]="selectedQuantity"
+                        (selectQuantity)="selectQuantity($event)"
+                ></app-quantity-select>
+            </div>
+
+            <div>
+                <input class="btn btn-success product-details__submit-button" type="submit" value="Add to Cart"/>
+            </div>
+        </form>
+
+        <div>
+            <a routerLink="/">&lt; Back to Home</a>
+        </div>
+    </div>
+</div>

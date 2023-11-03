@@ -1,0 +1,28 @@
+.shopping-cart {
+  width: 800px;
+  display: flex;
+  padding: 15px;
+
+  &__item {
+    display: flex;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+  &__details {
+    width: 200px;
+    margin-left: 10px;
+  }
+  &__detail {
+    font-size: 13px;
+    &--product-name {
+      font-weight: bold;
+    }
+  }
+  &__image {
+    width: 100px;
+  }
+  &__total-price {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,36 @@
+<div class="shopping-cart">
+  <div>
+    <div class="shopping-cart__item" *ngFor="let productShoppingCart of productShoppingCartList">
+      <img
+        class="shopping-cart__image"
+        src="{{ productShoppingCart.imageUrl }}"
+        alt="{{productShoppingCart.productName}}"
+      />
+
+      <div class="shopping-cart__details">
+        <div
+          class="shopping-cart__detail shopping-cart__detail--product-name">{{ productShoppingCart.productName }}</div>
+        <div class="shopping-cart__detail">{{ productShoppingCart.price }} đ</div>
+        <div class="shopping-cart__detail">
+          <app-quantity-select
+            [label]="amount"
+            [selectedQuantity]="productShoppingCart.quantity"
+            (selectQuantity)="onSelectQuantity($event, productShoppingCart)"
+          ></app-quantity-select>
+        </div>
+        <div>
+          <button
+            class="btn btn-sm btn-danger"
+            (click)="deleteProductInCart(productShoppingCart.id)"
+          >Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="shopping-cart__total-price">Total Price: {{ totalPrice }} đ</div>
+  </div>
+
+  <div>
+    <app-checkout-form></app-checkout-form>
+  </div>
+</div>

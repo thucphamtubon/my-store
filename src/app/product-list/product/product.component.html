@@ -1,0 +1,24 @@
+<div class="product">
+    <a routerLink="products/{{ product.id }}" routerLinkActive="active">
+        <img class="product__image" src="{{ product.imageUrl }}" alt="{{product.productName}}"/>
+    </a>
+
+    <div class="product__content">
+        <div>{{ product.productName }}</div>
+        <div class="product__description">{{ product.description }}</div>
+        <div class="product__price">{{ product.price}} đ</div>
+
+        <form (ngSubmit)="addToCart(product)">
+            <div>
+                <app-quantity-select
+                        [selectedQuantity]="selectedQuantity"
+                        (selectQuantity)="selectQuantity($event)"
+                ></app-quantity-select>
+            </div>
+
+            <div>
+                <input class="btn btn-success product__submit-button" type="submit" value="Add to Cart"/>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.nav {
+  padding: 7px 0;
+  background: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  &__title {
+    color: #00ffbc;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    padding-right: 30px;
+  }
+
+  &__item {
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      color: green;
+      transition: all 250ms ease-in-out;
+    }
+  }
+}

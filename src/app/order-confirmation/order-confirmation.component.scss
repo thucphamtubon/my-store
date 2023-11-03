@@ -1,0 +1,11 @@
+.order-confirmation {
+  margin-top: 20px;
+  text-align: center;
+  &__title {
+    font-size: 30px;
+    color: #00ffbc;
+  }
+  &__item {
+    margin-bottom: 10px;
+  }
+}

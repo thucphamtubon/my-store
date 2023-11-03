@@ -1,0 +1,12 @@
+<strong [ngStyle]="{'margin-right': '5px'}">
+  <label *ngIf="label">{{label}}</label>
+</strong>
+
+<select
+  class="quantity-select"
+  [(ngModel)]="selectedQuantity"
+  (ngModelChange)="selectQuantity.emit($event)"
+  [ngModelOptions]="{ standalone: true }"
+>
+  <option *ngFor="let quantity of quantityOptions" value="{{ quantity }}">{{ quantity }}</option>
+</select>
