@@ -2,10 +2,13 @@
 
 ## Start
 To start my store app
-`npm install`
-`ng serve`
 
-## Link:
+Install packages
+```yarn install```
+
+Start app to development
+```ng serve```
+
 Navigate to http://localhost:4200/
 
 ## Build
